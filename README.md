@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# 🌦️ Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sleek and responsive Weather Forecast Application built with **React**, using **OpenWeatherMap API**, **Day.js**, and a custom state management system through `useContext` and `useReducer`.
 
-## Available Scripts
+This app allows users to select Indian cities and view a detailed 5-day weather forecast, temperature range, humidity, wind speed, and more — with a smooth and modern UI.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📸 Screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="1901" height="892" alt="image" src="https://github.com/user-attachments/assets/2fe7c472-1bf0-401b-8844-1c7796eebe7b" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 📝 About the Project
 
-### `npm run build`
+The **Weather App** is a modern React-based web application designed to provide users with accurate and user-friendly weather forecasts. Leveraging the power of the **OpenWeatherMap API**, the app displays a 5-day forecast for cities across India, with data including:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🌡️ Temperature highs and lows  
+- ☁️ Weather conditions  
+- 💧 Humidity  
+- 🌬️ Wind speed  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+It also showcases additional useful information such as:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🕒 Local date and time  
+- 🏙️ City population  
 
-### `npm run eject`
+What makes this app unique is its integration of real-time weather data with static local data (like city info), creating a fast and responsive experience without overloading API calls. With clean visuals and an intuitive layout, it's perfect for users who want quick, glanceable weather updates.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔧 Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 🌍 City selection from a local dataset (no API call required)
+- 🗓️ 5-day weather forecast
+- 🌤️ Weather icons and descriptions
+- 🌡️ Max and Min Temperature display
+- 💨 Wind speed and 💧 humidity (if available)
+- 🧠 Day/Night detection
+- 🕒 Local time display
+- 👤 Population info of the city
+- 🎨 Clean UI with intuitive layout
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- ⚛️ **React.js**
+- 📦 **Context API** and `useReducer` for state management
+- 🧮 **Axios** for HTTP requests
+- ⏰ **Day.js** for date/time handling
+- 🖼️ **OpenWeatherMap** for weather forecast API
+- 📁 Static city list from a local `in.json` file
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📂 Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
