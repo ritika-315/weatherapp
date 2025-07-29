@@ -1,8 +1,8 @@
 # 🌦️ Weather App
 
-A sleek and responsive Weather Forecast Application built with **React**, using **OpenWeatherMap API**, **Day.js**, and a custom state management system through `useContext` and `useReducer`.
+A sleek and responsive Weather Forecast Application built with **React**, using **OpenWeatherMap API**, **Day.js**, and a custom state management system through `Context.js` and `Reducer.js`.
 
-This app allows users to select Indian cities and view a detailed 5-day weather forecast, temperature range, humidity, wind speed, and more — with a smooth and modern UI.
+This app allows users to select Indian cities and view a detailed 5-day weather forecast, population, date, time, and more — with a smooth and modern UI.
 
 ---
 
@@ -19,8 +19,6 @@ The **Weather App** is a modern React-based web application designed to provide 
 
 - 🌡️ Temperature highs and lows  
 - ☁️ Weather conditions  
-- 💧 Humidity  
-- 🌬️ Wind speed  
 
 It also showcases additional useful information such as:
 
@@ -36,9 +34,6 @@ What makes this app unique is its integration of real-time weather data with sta
 - 🌍 City selection from a local dataset (no API call required)
 - 🗓️ 5-day weather forecast
 - 🌤️ Weather icons and descriptions
-- 🌡️ Max and Min Temperature display
-- 💨 Wind speed and 💧 humidity (if available)
-- 🧠 Day/Night detection
 - 🕒 Local time display
 - 👤 Population info of the city
 - 🎨 Clean UI with intuitive layout
@@ -48,7 +43,7 @@ What makes this app unique is its integration of real-time weather data with sta
 ## 🚀 Technologies Used
 
 - ⚛️ **React.js**
-- 📦 **Context API** and `useReducer` for state management
+- 📦 **Context API** and `Reducer.js` for state management
 - 🧮 **Axios** for HTTP requests
 - ⏰ **Day.js** for date/time handling
 - 🖼️ **OpenWeatherMap** for weather forecast API
