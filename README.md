@@ -54,7 +54,4 @@ What makes this app unique is its integration of real-time weather data with sta
 - 🖼️ **OpenWeatherMap** for weather forecast API
 - 📁 Static city list from a local `in.json` file
 
----
-
-## 📂 Folder Structure
 
