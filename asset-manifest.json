@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ritika-315/weatherapp/static/css/main.8fd05d82.css",
+    "main.js": "/ritika-315/weatherapp/static/js/main.253ba673.js",
+    "static/js/453.278c62c6.chunk.js": "/ritika-315/weatherapp/static/js/453.278c62c6.chunk.js",
+    "static/media/wallpaper.jpg": "/ritika-315/weatherapp/static/media/wallpaper.82b1256d83cd3ef8a0c6.jpg",
+    "index.html": "/ritika-315/weatherapp/index.html",
+    "main.8fd05d82.css.map": "/ritika-315/weatherapp/static/css/main.8fd05d82.css.map",
+    "main.253ba673.js.map": "/ritika-315/weatherapp/static/js/main.253ba673.js.map",
+    "453.278c62c6.chunk.js.map": "/ritika-315/weatherapp/static/js/453.278c62c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fd05d82.css",
+    "static/js/main.253ba673.js"
+  ]
+}
