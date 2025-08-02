@@ -27,6 +27,8 @@ It also showcases additional useful information such as:
 
 What makes this app unique is its integration of real-time weather data with static local data (like city info), creating a fast and responsive experience without overloading API calls. With clean visuals and an intuitive layout, it's perfect for users who want quick, glanceable weather updates.
 
+Deployed on - "https://ritika-315.github.io/weatherapp/"
+
 ---
 
 ## 🔧 Features
